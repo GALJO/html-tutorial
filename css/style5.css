@@ -1,28 +1,27 @@
 body {
-    background-color: lightslategrey;
+    background-color: black;
 }
 
 h1 {
-    background-color: black;
-    color: lightslategrey;
+    background-color: cyan;
+    color: black;
     text-align: center;
 }
 
 #source {
-    color: crimson;
+    color: cyan;
 }
 
 .text {
-    color: black;
-    text-align: center;
+    color: white;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
-    color: green;
+    color: red;
     text-decoration: underline;
 }
