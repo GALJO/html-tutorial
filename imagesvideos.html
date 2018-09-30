@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/style3.css">
     <meta charset="UTF-8">
-    <title>Obrazy i Filmy</title>
+    <title>Multimediów</title>
 </head>
 <body>
     <h1>Obrazy</h1>
@@ -11,7 +11,15 @@
     <img src="img/ferrari.jpg" title="Ferrari California T" width="300" height="200">
     <hr>
     <h1>Filmy</h1>
-    <p class="text">Aby wstawić na stronę www film należy zastosować taga <mark>embed</mark>.</p>
-    <embed src="vid/starwars.mp4" width="400" height="300">
+    <p class="text">Aby wstawić na stronę www film należy zastosować taga <mark>video</mark>.</p>
+    <video controls width="400">
+        <source src="vid/starwars.mp4" type="video/mp4">
+        Przeglądarka nie obsługuje HTML 5.
+    </video>
+    <p class="text">Aby wstawić na stronę film bezpośrednio z youtube, należy zastosować taga <mark>iframe</mark>.</p>
+    <iframe src="https://www.youtube.com/embed/HqVSuqJrU1I" width="400" height="300" allowfullscreen frameborder="0"></iframe>
+    <h1>Pliki Dźwiękowe</h1>
+    <p class="text">Aby wstawić na stronę plik dźwiękowy (na przykład mp3) należy zastosować taga <mark>audio</mark>.</p>
+    <audio src="aud/darkside.mp3" controls></audio>
 </body>
 </html>
