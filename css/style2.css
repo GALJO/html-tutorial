@@ -1,0 +1,42 @@
+body {
+    background-image: url(../img/dark_background.jpg) 
+}
+
+h1 {
+    background-color: crimson; 
+    text-align: center;
+    color: white;
+}
+
+#link1 {
+    color: olivedrab;
+}
+
+#span1 {
+    color: burlywood;
+}
+
+.normal {
+    color: white;
+}
+
+.text-justify {
+    text-align: justify;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+    color: white;
+}
+
+.text-big {
+    font-size: 20pt;
+    color: white;
+}
+
